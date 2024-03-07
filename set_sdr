@@ -7,7 +7,9 @@ do
   echo "Please select your SDR Hardware" 
   echo " 1= Adalm Pluto"
   echo " 2= Lime SDR Mini"
-  echo " 3= Selectable from Start Menu"
+  echo " 3= Light"
+  echo " 4= RTL RX only"
+  echo " 9= Selectable from Start Menu"
   echo
   read SDRTYPE
 
@@ -36,6 +38,31 @@ do
   fi
   
   if [ $SDRTYPE -eq 3 ]
+  then
+    echo
+    echo "Light Selected"
+    echo
+    echo "The Langstone/run and Langstone/stop commands will now use the Lime SDR"
+    echo
+    ln -sf /home/pi/Langstone/run_light /home/pi/Langstone/run
+    ln -sf /home/pi/Langstone/stop_light /home/pi/Langstone/stop
+    break  
+  fi
+
+    if [ $SDRTYPE -eq 4 ]
+  then
+    echo
+    echo "RTL-SDR RX Only Selected"
+    echo
+    echo "The Langstone/run and Langstone/stop commands will now use the Lime SDR"
+    echo
+    ln -sf /home/pi/Langstone/run_rtlrx /home/pi/Langstone/run
+    ln -sf /home/pi/Langstone/stop_rtlrx /home/pi/Langstone/stop
+    break  
+  fi
+
+
+  if [ $SDRTYPE -eq 9 ]
   then
     echo
     echo "The Start menu has been enabled"

@@ -13,6 +13,16 @@ do
   then
     /home/pi/Langstone/run_lime
   fi
+
+  if [ "$RESULT" -eq 93 ]
+  then
+    /home/pi/Langstone/run_light
+  fi
+
+  if [ "$RESULT" -eq 94 ]
+  then
+    /home/pi/Langstone/run_rtlrx
+  fi
 done
 
 sudo cp /home/pi/Langstone/splash.bgra /dev/fb0

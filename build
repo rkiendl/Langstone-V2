@@ -1,5 +1,7 @@
 cc /home/pi/Langstone/LangstoneGUI_Pluto.c -o /home/pi/Langstone/GUI_Pluto -liio -lLimeSuite -lwiringPi 
 cc /home/pi/Langstone/LangstoneGUI_Lime.c -o /home/pi/Langstone/GUI_Lime -lLimeSuite -lwiringPi 
+cc /home/pi/Langstone/LangstoneGUI_Light.c -o /home/pi/Langstone/GUI_Light -liio -lLimeSuite -lwiringPi 
+cc /home/pi/Langstone/LangstoneGUI_RTLrx.c -o /home/pi/Langstone/GUI_RTLrx -liio -lLimeSuite -lwiringPi 
 cc /home/pi/Langstone/HW_Test.c -o /home/pi/Langstone/HW_Test -lwiringPi
 cc /home/pi/Langstone/Pluto_Test.c -o /home/pi/Langstone/Pluto_Test -liio
 cc /home/pi/Langstone/selectSDR.c -o /home/pi/Langstone/select

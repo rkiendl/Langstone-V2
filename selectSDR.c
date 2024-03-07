@@ -16,15 +16,21 @@ char mousePath[20];
 char touchPath[20];
 
 #define limeButtonX 0
-#define limeButtonY 250
+#define limeButtonY 200
+
 #define exitButtonX 266
-#define exitButtonY 250
+#define exitButtonY 200
+
 #define plutoButtonX 533
-#define plutoButtonY 250
+#define plutoButtonY 200
 
+#define lightButtonX 0
+#define lightButtonY 400
 
+#define rtlrxButtonX 533
+#define rtlrxButtonY 400
 
-#define buttonHeight 200
+#define buttonHeight 180
 #define buttonWidth 266
 
 int exitValue;
@@ -159,7 +165,19 @@ if(buttonTouched(limeButtonX,limeButtonY))    //Lime
       exitValue=92;
       return;
     }
+
+ if(buttonTouched(lightButtonX,lightButtonY))    //Light
+    {
+      exitValue=93;
+      return;
+    }    
  
+  if(buttonTouched(rtlrxButtonX,rtlrxButtonY))    //RTLrx
+    {
+      exitValue=94;
+      return;
+    }
+
  if(buttonTouched(exitButtonX,exitButtonY))    //Exit
     {
       exitValue=0;
