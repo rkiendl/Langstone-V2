@@ -138,6 +138,8 @@ chmod +x run_lime
 chmod +x stop_lime
 chmod +x run_pluto
 chmod +x stop_pluto
+chmod +x run_light
+chmod +x stop_light
 chmod +x update
 chmod +x set_pluto
 chmod +x set_sdr
