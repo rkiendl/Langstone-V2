@@ -3,7 +3,7 @@ cd /home/pi
 cp /home/pi/Langstone/Langstone_Lime.conf /tmp
 cp /home/pi/Langstone/Langstone_Pluto.conf /tmp
 rm -rf /home/pi/Langstone
-git clone http://www.github.com/g4eml/Langstone-V2
+git clone http://www.github.com/rkiendl/Langstone-V2
 mv Langstone-V2 Langstone
 cp /tmp/Langstone_Lime.conf /home/pi/Langstone
 cp /tmp/Langstone_Pluto.conf /home/pi/Langstone
