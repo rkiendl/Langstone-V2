@@ -88,7 +88,7 @@ The preferred installation method only needs a Windows PC connected to the same 
 # For the 7" Raspberry Pi Display:-
 
 ```sh
-wget https://raw.githubusercontent.com/g4eml/Langstone-V2/master/install.sh
+wget https://raw.githubusercontent.com/rkiendl/Langstone-V2/master/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -96,7 +96,7 @@ chmod +x install.sh
 # For the 5" DFR0550 Display:-
 
 ```sh
-wget https://raw.githubusercontent.com/g4eml/Langstone-V2/master/install_dfr0550.sh
+wget https://raw.githubusercontent.com/rkiendl/Langstone-V2/master/install_dfr0550.sh
 chmod +x install_dfr0550.sh
 ./install_dfr0550.sh
 ```
@@ -104,7 +104,7 @@ chmod +x install_dfr0550.sh
 # For the 4" Hyperpixel4 Display:-
 
 ```sh
-wget https://raw.githubusercontent.com/g4eml/Langstone-V2/master/install_hyperpixel4.sh
+wget https://raw.githubusercontent.com/rkiendl/Langstone-V2/master/install_hyperpixel4.sh
 chmod +x install_hyperpixel4.sh
 ./install_hyperpixel4.sh
 ```
