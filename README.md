@@ -1,3 +1,11 @@
+# OE6RKE Addons
+
+todo
+LightCom
+RTLSDR
+500kHz switchable
+M17
+
 # Langstone-V2 SDR Transceiver by Colin Durbridge G4EML
 
 # Now with support for Lime SDR Mini, Lime SDR Mini V2 and Adalm Pluto
